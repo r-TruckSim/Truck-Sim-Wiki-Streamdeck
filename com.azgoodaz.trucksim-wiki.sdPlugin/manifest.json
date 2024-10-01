@@ -1,0 +1,211 @@
+{
+	"Name": "Truck Sim Wiki",
+	"Version": "0.1.0.0",
+	"Author": "azgoodaz",
+	"Actions": [
+		{
+			"Name": "Open Main Page",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-main",
+			"Icon": "imgs/actions/keys/home",
+			"Tooltip": "Opens the main page of the wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/home",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "Open Random Page",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-random",
+			"Icon": "imgs/actions/keys/wiki-random",
+			"Tooltip": "Opens a random page on the wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/wiki-random",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ATS Portal",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ats-portal",
+			"Icon": "imgs/plugin/icon",
+			"Tooltip": "Opens the portal page of the ATS wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/ats-portal",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ATS States",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ats-states",
+			"Icon": "imgs/plugin/icon",
+			"Tooltip": "Opens the states page of the ATS wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/ats-states",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ATS Cities",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ats-cities",
+			"Icon": "imgs/actions/keys/city",
+			"Tooltip": "Opens the cities page of the ATS wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/city",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ATS Facilities",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ats-facilities",
+			"Icon": "imgs/plugin/icon",
+			"Tooltip": "Opens the facilities page of the ATS wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/ats-facilties",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ATS Patch Notes",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ats-patchnotes",
+			"Icon": "imgs/actions/keys/patchnotes",
+			"Tooltip": "Opens the patch notes of the ATS wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/patchnotes",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ETS2 Portal",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ets2-portal",
+			"Icon": "imgs/plugin/icon",
+			"Tooltip": "Opens the portal page of the ETS2 wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/ets2-portal",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ETS2 Countries",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ets2-countries",
+			"Icon": "imgs/plugin/icon",
+			"Tooltip": "Opens the countries page of the ETS2 wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/ets2-countries",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ETS2 Cities",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ets2-cities",
+			"Icon": "imgs/actions/keys/city",
+			"Tooltip": "Opens the cities page of the ETS2 wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/city",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ETS2 Facilities",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ets2-facilities",
+			"Icon": "imgs/plugin/icon",
+			"Tooltip": "Opens the facilities page of the ETS2 wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/ets2-facilties",
+					"TitleAlignment": "middle"
+				}
+			]
+		},
+		{
+			"Name": "ETS2 Patch Notes",
+			"UUID": "com.azgoodaz.trucksim-wiki.wiki-ets2-patchnotes",
+			"Icon": "imgs/actions/keys/patchnotes",
+			"Tooltip": "Opens the patch notes of the ETS2 wiki.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/keys/patchnotes",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "Truck Sim Wiki",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "A plugin that directs you to quick shortcuts to gain information about ATS or ETS2 via the Truck Sim Wiki.",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.15"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.azgoodaz.trucksim-wiki"
+}
